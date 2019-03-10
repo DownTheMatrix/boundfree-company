@@ -1,17 +1,20 @@
-Evie
-====
+# Project Overview
 
-Project site: https://evie.undraw.co
+BoundFree is a fictitious sport consultancy company which strives to have as many people as possible doing sports no matter their financial or phisical capabilities.
+The website structure sits on top of the Evie theme by [UnDraw](https://undraw.co/) and so are the assets. The layout and the content was customized, and accessibility and code readability was improved.
 
-An MIT licensed template bundled with a minimal style guide to build websites faster, especially combined with illustrations from [unDraw](https://undraw.co). It is extemely lightweight, customizable and works perfectly on modern browsers.
+## How To Run The Website
 
-![Evie Landing](https://github.com/anges244/evie/blob/master/docs/images/preview_landing.png)
+To view the website simply download the repository as .zip file and open the `index.html` file in your browser.
 
-Usage
------
+Alternatively, you can view the live version [here](https://serene-feynman-bc9bac.netlify.com/).
 
-_This is still under development. For better instructions, head over to the [project website](https://evie.undraw.co)._
+### License
 
-This version contains the development setup, with the source files (SASS,EJS) and a Gulp/Express.js setup. To use it, run `gulp`. This will start the server with live reloading. If you just want to compile a customized production version, the path is "src/theme/" and there you can change the SASS files, customize colors, make any change you want and run `gulp build`. This will generate a "theme" folder which contains your static website.
+Copyright 2019 Bruno Mazza
 
-### Real documentation coming soon
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
