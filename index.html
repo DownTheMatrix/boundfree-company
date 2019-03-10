@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta class="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>BoundFree / Sport Consultancy Company</title>
+	<!-- Don't forget to add your metadata here -->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Bruno Mazza / Front-End Developer" />
+    <meta name="description" content="BoundFree / Sport Consultancy Company" />
+    <meta
+      name="keywords"
+      content="boundfree, sport, consultancy, company, accessible, outdoor activities"
+    />
+	<link rel='stylesheet' href='css/style.css' />
+</head>
+<body>
+	<!-- Hero(extended) navbar -->
+	<div class="navbar navbar--extended">
+		<nav class="nav__mobile"></nav>
+		<div class="container">
+			<div class="navbar__inner">
+				<a href="index.html" class="navbar__logo">Bound<span class="hl">Free</span></a>
+				<nav class="navbar__menu">
+					<ul>
+						<li><a href="#intro">About Us</a></li>
+						<li><a href="#activities">Activities</a></li>
+						<li><a href="#mission">Our Mission</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+					</ul>
+				</nav>
+				<!-- Toggle Menu -->
+				<div class="navbar__menu-mob"><a href="#" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path></svg></a></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Hero unit -->
+	<section id="intro" class="hero">
+		<div class="hero__overlay hero__overlay--gradient"></div>
+		<div class="hero__mask"></div>
+		<div class="hero__inner">
+			<div class="container">
+				<div class="hero__content">
+					<div class="hero__content__inner" id='navConverter'>
+						<h1 class="hero__title">We guide you through a sporting journey</h1>
+						<p class="hero__text">At BoundFree we strive to offer the best recommendations to people who want to embrace a sport activity, despite whatever issues they might be facing.</p>
+						<a href="auth.html" class="button button__accent">Download App</a>
+						<a href="#" class="button hero__button">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Arrow Icon -->
+	<div class="hero__sub">
+		<span id="scrollToNext" class="scroll">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class='hero__sub__down' fill="currentColor" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/></svg>
+		</span>
+	</div>
+
+	<!-- Activities -->
+	<section id="activities" class="steps landing__section">
+		<div class="container">
+			<h2>Which activities do we support?</h2>
+			<p>Here's the main activities we provide consultancy for, but we don't stop here.</p>
+		</div>
+		<div class="container">
+			<div class="steps__inner">
+				<div class="step">
+					<div class="step__media">
+						<img src="./images/athletics.svg" class="step__image" alt="athletics icon">
+					</div>
+					<h4>Athletics</h4>
+					<p class="step__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, architecto.</p>
+				</div>
+				<div class="step">
+					<div class="step__media">
+						<img src="./images/soccer.svg" class="step__image" alt="soccer icon">
+					</div>
+					<h4>Soccer</h4>
+					<p class="step__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, architecto.</p>
+				</div>
+				<div class="step">
+					<div class="step__media">
+						<img src="./images/hiking.svg" class="step__image" alt="hiking icon">
+					</div>
+					<h4>Hiking</h4>
+					<p class="step__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, architecto.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Mission -->
+	<section id="mission" class="expanded landing__section">
+		<div class="container">
+			<div class="expanded__inner">
+				<div class="expanded__media">
+					<img src="./images/mission.svg" class="expanded__image" alt="people helping each other icon">
+				</div>
+				<div class="expanded__content">
+					<h2 class="expanded__title">Focus on your favorite sport and let us handle the rest</h2>
+					<p class="expanded__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quaerat beatae quasi fugit quis adipisci mollitia, doloremque temporibus harum laboriosam amet laborum sequi et dolor ducimus fuga cumque possimus nisi at incidunt eius? Iure maxime doloribus officiis dolorum ab cupiditate!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="expanded landing__section">
+		<div class="container">
+			<div class="expanded__inner">
+				<div class="expanded__media">
+					<img src="./images/tasks.svg" class="expanded__image" alt="handling tasks icon">
+				</div>
+				<div class="expanded__content">
+					<h2 class="expanded__title">We strive to grant everybody the best support, both online and in person.</h2>
+					<p class="expanded__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias enim aut ipsa quibusdam sapiente voluptas sunt ad fugiat eius odio minima, ex repellat rem a tempore corrupti libero maxime quos omnis totam laborum repudiandae! Fuga deserunt quis temporibus eligendi laborum.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="expanded landing__section">
+		<div class="container">
+			<div class="expanded__inner">
+				<div class="expanded__media">
+					<img src="./images/boundless.svg" class="expanded__image" alt="woman on a wheelchair receiving support icon">
+				</div>
+				<div class="expanded__content">
+					<h2 class="expanded__title">We believe in a world without boundaries and obstacles</h2>
+					<p class="expanded__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis necessitatibus porro quis ab nisi! Enim maiores assumenda deleniti, quam porro, officiis quia dolorum tempore corrupti, reprehenderit illo sapiente. Blanditiis numquam eum vero vitae omnis cum. Magni laborum possimus eius molestiae.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Call To Action -->
+	<section id="contact" class="cta cta--reverse">
+		<div class="container">
+			<div class="cta__inner">
+				<h2 class="cta__title">Get started now</h2>
+				<p class="cta__sub cta__sub--center">Get in contact with us and start your jouney.</p>
+				<a href="auth.html" class="button button__accent">Contact Us</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer footer--dark">
+		<div class="container">
+			<div class="footer__inner">
+				<a href="index.html" class="footer__textLogo">Bound<span class="hl">Free</span></a>
+				<div class="footer__data">
+					<div class="footer__data__item text-container">
+						<div class="footer__row">
+							<p class="footer__recap">BoundFree is a sport consultancy firm with over 15 years of experience in the field and with hundreds of associates across the world. In order to achieve our goal of overcome any phisical and financial barriers and have as many as possible practice a sport, we are constantly looking for motivated people to join our team. If interested, send us an email and let's know each other.</p>
+						</div>
+					</div>
+					<div class="footer__data__item">
+					<div class="footer__row">
+						<a href="" target="_blank" rel="noopener noreferrer" class="footer__link">Twitter</a>
+					</div>
+					<div class="footer__row">
+						<a href="" target="_blank" rel="noopener noreferrer" class="footer__link">Facebook</a>
+					</div>
+					<div class="footer__row">
+						<a href="" target="_blank" rel="noopener noreferrer" class="footer__link">Blog</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<p class="copyright">BoundFree 2019 &copy; All Rights Reserved</p>
+		</div>
+	</div>
+	</footer>
+
+<script src='js/app.min.js'></script>
+</body>
+</html>
