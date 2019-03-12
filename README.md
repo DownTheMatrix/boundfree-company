@@ -1,5 +1,7 @@
 # Project Overview
 
+![Homepage Screenshot](https://github.com/DownTheMatrix/boundfree-company/blob/master/Screenshot.png?raw=true)
+
 BoundFree is a fictitious sport consultancy company which strives to have as many people as possible doing sports no matter their financial or phisical capabilities.
 The website structure sits on top of the Evie theme by [UnDraw](https://undraw.co/) and so are the assets. The layout and the content was customized, and accessibility and code readability was improved.
 
